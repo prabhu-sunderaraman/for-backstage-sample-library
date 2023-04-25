@@ -14,6 +14,6 @@ spec:
   lifecycle: development
   owner: MJ
   system: occd
-  apiConsumedBy: ['component:resource-pool-consumer']
+  apiConsumedBy: ['component:resource-pool-consumption', 'component:carrier-capacity-consumption']
 
 
