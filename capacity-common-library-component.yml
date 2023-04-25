@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Capacity-Common-Library
+  name: capacity-common-library
   # This is an extra long description with Markdown
   description: |
     [Capacity Common Library](http://sample.com) is a common library
@@ -14,6 +14,6 @@ spec:
   lifecycle: development
   owner: MJ
   system: OCCD
-  apiConsumedBy: ['component:Resource Pool Consumer']
+  apiConsumedBy: ['component:resource-pool-consumer']
 
 
