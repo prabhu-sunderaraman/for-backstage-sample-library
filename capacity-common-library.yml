@@ -4,7 +4,7 @@ metadata:
   name: capacity-common-library
   # This is an extra long description with Markdown
   description: |
-    [Capacity Common Library](http://sample.com) is a common library
+    Capacity Common Library is a common OCCD library
   links:
     - url: https://github.com/prabhu-sunderaraman/for-backstage-sample-library
       title: Github repo
@@ -13,7 +13,7 @@ spec:
   type: library
   lifecycle: development
   owner: MJ
-  system: OCCD
+  system: occd
   apiConsumedBy: ['component:resource-pool-consumer']
 
 
