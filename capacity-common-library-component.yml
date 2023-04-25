@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Capacity Common Library
+  # This is an extra long description with Markdown
+  description: |
+    [Capacity Common Library](http://sample.com) is a common library
+  links:
+    - url: https://github.com/prabhu-sunderaraman/for-backstage-sample-library
+      title: Github repo
+      icon: github
+spec:
+  type: library
+  lifecycle: development
+  owner: MJ
+  system: OCCD
+  apiConsumedBy: ['component:Resource Pool Consumer']
+
+
